@@ -88,5 +88,5 @@ jobs:
       testResultsFiles: '**/*.trx' 
   - task: PublishBuildArtifacts@1
     inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
-    artifactName: 'rohit0510sharma.Azuredevops' 
+      pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
+      artifactName: 'rohit0510sharma.Azuredevops' 
