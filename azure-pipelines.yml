@@ -19,7 +19,7 @@ jobs:
     displayName: 'dotnet build'
   - script: ./run-tests.sh
     displayName: 'run tests'
-  - task: PublishTestResults@2
+  - task: PublishTestResults@1
     displayName: 'Publish Test Results **/*.trx'
     condition: succeededOrFailed()
     inputs:
